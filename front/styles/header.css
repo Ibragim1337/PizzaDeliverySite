@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header > .logo > img {
+    width: 135px;
+}
+
+.header > * {
+    width: 135px;
+    outline: 1px solid;
+    background-color: red;
+}
+
+.header > :nth-child(1){
+    margin-right: auto;
+}

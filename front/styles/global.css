@@ -1,0 +1,46 @@
+html,
+body {
+    min-width: 500px;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 75px 1fr 155px;
+
+}
+
+header,
+main,
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+  grid-area: header;
+  background-color: white;
+}
+
+main {
+  grid-area: main;
+  background-color: yellow;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1110px;
+    padding: 16px;
+    background-color: grey;
+}
