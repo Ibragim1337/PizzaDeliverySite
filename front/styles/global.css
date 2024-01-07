@@ -23,17 +23,18 @@ footer{
 
 header {
   grid-area: header;
-  background-color: white;
+  border-bottom: 1px solid #e6e6e6;
+  /* background-color: white; */
 }
 
 main {
   grid-area: main;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 footer {
   grid-area: footer;
-  background-color: black;
+  /* background-color: black; */
 }
 
 
@@ -42,5 +43,5 @@ footer {
     width: 100%;
     max-width: 1110px;
     padding: 16px;
-    background-color: grey;
+    /* background-color: grey; */
 }

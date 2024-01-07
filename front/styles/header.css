@@ -1,18 +1,43 @@
 .header {
     display: flex;
     justify-content: flex-start;
+    gap: 16px;
 }
 
 .header > .logo > img {
-    width: 135px;
+    width: 190px;
 }
 
 .header > * {
-    width: 135px;
-    outline: 1px solid;
-    background-color: red;
+    /* width: 135px; */
+    /* outline: 1px solid; */
+    /* background-color: white; */
+}
+
+ .header > .call-center > img {
+    height: 18px;
+ }
+
+ .header > .time-shedule > img {
+    height: 27px;
+ }
+
+.header > .langs img {
+    width: 40px;
 }
 
 .header > :nth-child(1){
     margin-right: auto;
+}
+
+.header > .langs {
+    z-index: 1;
+}
+
+.header > .langs > ul {
+    display: none;
+}
+
+.header > .langs:hover {
+    cursor: pointer;
 }
